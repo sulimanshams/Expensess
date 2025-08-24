@@ -1,21 +1,18 @@
 import './App.css';
-import ExpenssesCard from './Expensess';
+import ExpensesCard from './Expenses';
 import {Box} from "@mui/material"
 
 function App() {
   return(
   <Box sx={{
-    minWidth:"100vh",
+    minWidth:"100vw",
     minHeight:"100vh",
     backgroundColor:"#f8e9dd",
     display:"flex",
     justifyContent:"center",
     alignItems:"center"
   }}>
-        <ExpenssesCard
-        
-        
-        />
+        <ExpensesCard />
   </Box>
   )
 }
